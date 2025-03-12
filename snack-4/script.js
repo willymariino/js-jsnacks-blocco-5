@@ -8,7 +8,7 @@ const posts = [
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
-const resultmap = posts.map(element => {
+const resultmap = posts.map((element) => {
 
   console.log(element.author)
   return element.author
@@ -16,3 +16,5 @@ const resultmap = posts.map(element => {
 
 
 )
+
+console.log(resultmap)
