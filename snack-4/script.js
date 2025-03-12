@@ -10,7 +10,8 @@ const posts = [
 
 const resultmap = posts.map(element => {
 
-  console.log(`${element.author}`)
+  console.log(element.author)
+  return element.author
 }
 
 
