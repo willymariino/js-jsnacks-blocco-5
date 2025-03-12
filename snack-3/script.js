@@ -12,3 +12,4 @@ const resultmap = numbers.map(element => {
     console.log(element)
 })
 
+console.log(resultmap)
